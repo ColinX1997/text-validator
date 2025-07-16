@@ -1,0 +1,1472 @@
+[
+    {
+        "Description": "Source",
+        "StartPoint": 1,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Sender",
+        "StartPoint": 9,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Code",
+        "StartPoint": 17,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Acknowledgment_info",
+        "StartPoint": 25,
+        "Length": 4,
+        "Format": "4-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Version",
+        "StartPoint": 29,
+        "Length": 4,
+        "Format": "4-digits with leading zeroes",
+        "Optional": "M"
+    },
+    {
+        "Description": "Plant_identification",
+        "StartPoint": 33,
+        "Length": 2,
+        "Format": "2-digits",
+        "Optional": "M"
+    },
+    {
+        "Description": "Primary_source",
+        "StartPoint": 35,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "TG_code",
+        "StartPoint": 43,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Transaction_code",
+        "StartPoint": 51,
+        "Length": 18,
+        "Format": "18-characters alphanumeric completed with #",
+        "Optional": "M"
+    },
+    {
+        "Description": "Status_identifier",
+        "StartPoint": 69,
+        "Length": 4,
+        "Format": "4-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "User_data/band",
+        "StartPoint": 73,
+        "Length": 3,
+        "Format": "3-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Plant_identification",
+        "StartPoint": 76,
+        "Length": 2,
+        "Format": "2-digits",
+        "Optional": "M"
+    },
+    {
+        "Description": "Identifier",
+        "StartPoint": 78,
+        "Length": 20,
+        "Format": "20-characters left aligned text padded with spaces",
+        "Optional": "M"
+    },
+    {
+        "Description": "Checkpoint",
+        "StartPoint": 98,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Tool/Station",
+        "StartPoint": 106,
+        "Length": 10,
+        "Format": "10-characters left aligned text padded with spaces",
+        "Optional": "M"
+    },
+    {
+        "Description": "Result",
+        "StartPoint": 116,
+        "Length": 4,
+        "Format": "4-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Info/error_text",
+        "StartPoint": 120,
+        "Length": 120,
+        "Format": "120-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "IPS-C_order_number",
+        "StartPoint": 240,
+        "Length": 12,
+        "Format": "12-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Generated_component_code",
+        "StartPoint": 252,
+        "Length": 32,
+        "Format": "32-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Type_HVS",
+        "StartPoint": 284,
+        "Length": 6,
+        "Format": "6-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Number_of_cells_",
+        "StartPoint": 290,
+        "Length": 4,
+        "Format": "4-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Cell_Supplier",
+        "StartPoint": 294,
+        "Length": 4,
+        "Format": "4-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Cell_Height_",
+        "StartPoint": 298,
+        "Length": 4,
+        "Format": "4-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Cell_Diameter",
+        "StartPoint": 302,
+        "Length": 4,
+        "Format": "4-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "size",
+        "StartPoint": 306,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "size_additional_info",
+        "StartPoint": 308,
+        "Length": 4,
+        "Format": "4-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "CCS_Type_",
+        "StartPoint": 312,
+        "Length": 6,
+        "Format": "6-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "GOT_Type",
+        "StartPoint": 318,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "GUT_Type_",
+        "StartPoint": 326,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Penthouse_Type_",
+        "StartPoint": 334,
+        "Length": 6,
+        "Format": "6-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Penthouse_additional_info",
+        "StartPoint": 340,
+        "Length": 6,
+        "Format": "6-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "IPS-C_Part_number_",
+        "StartPoint": 346,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "SAP_Order",
+        "StartPoint": 356,
+        "Length": 12,
+        "Format": "12-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "FATEV",
+        "StartPoint": 368,
+        "Length": 26,
+        "Format": "26-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "HU_Nummer",
+        "StartPoint": 394,
+        "Length": 14,
+        "Format": "14-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_ZZ",
+        "StartPoint": 408,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_ZZ",
+        "StartPoint": 418,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_ZZ",
+        "StartPoint": 425,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Workpiece_ID_Cell_cluster_",
+        "StartPoint": 427,
+        "Length": 32,
+        "Format": "32-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Workpiece_ID_Energy_cluster",
+        "StartPoint": 459,
+        "Length": 32,
+        "Format": "32-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Workpiece_ID_Housing",
+        "StartPoint": 491,
+        "Length": 32,
+        "Format": "32-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Workpiece_ID_Foaming",
+        "StartPoint": 523,
+        "Length": 32,
+        "Format": "32-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Counter_current_process",
+        "StartPoint": 555,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Application_ID_10-digit",
+        "StartPoint": 557,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Identifier_Audit_(IPT)",
+        "StartPoint": 567,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Direct_targeting_via_checkpoint_",
+        "StartPoint": 568,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reason_of_examination",
+        "StartPoint": 576,
+        "Length": 50,
+        "Format": "50-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "NIO_Station_",
+        "StartPoint": 626,
+        "Length": 25,
+        "Format": "25-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve",
+        "StartPoint": 651,
+        "Length": 50,
+        "Format": "50-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Subpart_family_1",
+        "StartPoint": 701,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Subpart_number_1",
+        "StartPoint": 711,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Subpart_AI_1",
+        "StartPoint": 718,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Subpart_Evaluation_identifier_1",
+        "StartPoint": 720,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 721,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Subpart_family_2",
+        "StartPoint": 723,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Subpart_number_2",
+        "StartPoint": 733,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Subpart_AI_2",
+        "StartPoint": 740,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Subpart_Evaluation_identifier_2",
+        "StartPoint": 742,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 743,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_1",
+        "StartPoint": 745,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_1",
+        "StartPoint": 755,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_1",
+        "StartPoint": 762,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_1",
+        "StartPoint": 764,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 765,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_2",
+        "StartPoint": 767,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_2",
+        "StartPoint": 777,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_2",
+        "StartPoint": 784,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_2",
+        "StartPoint": 786,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 787,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_3",
+        "StartPoint": 789,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_3",
+        "StartPoint": 799,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_3",
+        "StartPoint": 806,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_3",
+        "StartPoint": 808,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 809,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_4",
+        "StartPoint": 811,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_4",
+        "StartPoint": 821,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_4",
+        "StartPoint": 828,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_4",
+        "StartPoint": 830,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 831,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_5",
+        "StartPoint": 833,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_5",
+        "StartPoint": 843,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_5",
+        "StartPoint": 850,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier5",
+        "StartPoint": 852,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 853,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_6",
+        "StartPoint": 855,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_6",
+        "StartPoint": 865,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_6",
+        "StartPoint": 872,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_6",
+        "StartPoint": 874,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 875,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_7",
+        "StartPoint": 877,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_7",
+        "StartPoint": 887,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_7",
+        "StartPoint": 894,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_7",
+        "StartPoint": 896,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 897,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_8",
+        "StartPoint": 899,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number__8",
+        "StartPoint": 909,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_8",
+        "StartPoint": 916,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_8",
+        "StartPoint": 918,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 919,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_9",
+        "StartPoint": 921,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_9",
+        "StartPoint": 931,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_9",
+        "StartPoint": 938,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_9",
+        "StartPoint": 940,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 941,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_10",
+        "StartPoint": 943,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_10",
+        "StartPoint": 953,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_10",
+        "StartPoint": 960,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_10",
+        "StartPoint": 962,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 963,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_11",
+        "StartPoint": 965,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_11",
+        "StartPoint": 975,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_11",
+        "StartPoint": 982,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_11",
+        "StartPoint": 984,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 985,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_12",
+        "StartPoint": 987,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_12",
+        "StartPoint": 997,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_12",
+        "StartPoint": 1004,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_12",
+        "StartPoint": 1006,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1007,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_13",
+        "StartPoint": 1009,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_13",
+        "StartPoint": 1019,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI13_",
+        "StartPoint": 1026,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_13",
+        "StartPoint": 1028,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1029,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_14",
+        "StartPoint": 1031,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_14",
+        "StartPoint": 1041,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_14",
+        "StartPoint": 1048,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_14",
+        "StartPoint": 1050,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1051,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_15",
+        "StartPoint": 1053,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_15",
+        "StartPoint": 1063,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI15",
+        "StartPoint": 1070,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_15",
+        "StartPoint": 1072,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1073,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_16",
+        "StartPoint": 1075,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_16",
+        "StartPoint": 1085,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_16",
+        "StartPoint": 1092,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_16",
+        "StartPoint": 1094,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1095,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_17",
+        "StartPoint": 1097,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_17",
+        "StartPoint": 1107,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_17",
+        "StartPoint": 1114,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_17",
+        "StartPoint": 1116,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1117,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_18",
+        "StartPoint": 1119,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number__18",
+        "StartPoint": 1129,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_18",
+        "StartPoint": 1136,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_18",
+        "StartPoint": 1138,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1139,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_19",
+        "StartPoint": 1141,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_19",
+        "StartPoint": 1151,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_19",
+        "StartPoint": 1158,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_19",
+        "StartPoint": 1160,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1161,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_20",
+        "StartPoint": 1163,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_20",
+        "StartPoint": 1173,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_20",
+        "StartPoint": 1180,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_20",
+        "StartPoint": 1182,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1183,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_21",
+        "StartPoint": 1185,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_21",
+        "StartPoint": 1195,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_21",
+        "StartPoint": 1202,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_21",
+        "StartPoint": 1204,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1205,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_22",
+        "StartPoint": 1207,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_22",
+        "StartPoint": 1217,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_22",
+        "StartPoint": 1224,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_22",
+        "StartPoint": 1226,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1227,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_23",
+        "StartPoint": 1229,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_23",
+        "StartPoint": 1239,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_23",
+        "StartPoint": 1246,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_23",
+        "StartPoint": 1248,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1249,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_24",
+        "StartPoint": 1251,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_24",
+        "StartPoint": 1261,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_24",
+        "StartPoint": 1268,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_24",
+        "StartPoint": 1270,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1271,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_25",
+        "StartPoint": 1273,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_25",
+        "StartPoint": 1283,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_25",
+        "StartPoint": 1290,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_25",
+        "StartPoint": 1292,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1293,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_26",
+        "StartPoint": 1295,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_26",
+        "StartPoint": 1305,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_26",
+        "StartPoint": 1312,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_26",
+        "StartPoint": 1314,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1315,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_27",
+        "StartPoint": 1317,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_27",
+        "StartPoint": 1327,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_27",
+        "StartPoint": 1334,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_27",
+        "StartPoint": 1336,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1337,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_28",
+        "StartPoint": 1339,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_28",
+        "StartPoint": 1349,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_28",
+        "StartPoint": 1356,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_28",
+        "StartPoint": 1358,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1359,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_29",
+        "StartPoint": 1361,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_29",
+        "StartPoint": 1371,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_29",
+        "StartPoint": 1378,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_29",
+        "StartPoint": 1380,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1381,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_family_30",
+        "StartPoint": 1383,
+        "Length": 10,
+        "Format": "10-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Part_number_30",
+        "StartPoint": 1393,
+        "Length": 7,
+        "Format": "7-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "AI_30",
+        "StartPoint": 1400,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Evaluation_identifier_30",
+        "StartPoint": 1402,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1403,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "identification_dynamic_part_with_\"DD\"",
+        "StartPoint": 1405,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "O"
+    }
+]

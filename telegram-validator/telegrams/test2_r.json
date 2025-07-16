@@ -1,0 +1,110 @@
+[
+    {
+        "Description": "Source",
+        "StartPoint": 1,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Sender",
+        "StartPoint": 9,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Code",
+        "StartPoint": 17,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Acknowledgment_info",
+        "StartPoint": 25,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Version",
+        "StartPoint": 29,
+        "Length": 4,
+        "Format": "4-digits with leading zeroes"
+    },
+    {
+        "Description": "Plant_identification",
+        "StartPoint": 33,
+        "Length": 2,
+        "Format": "2-digits"
+    },
+    {
+        "Description": "Primary_source",
+        "StartPoint": 35,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "TG_code",
+        "StartPoint": 43,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Transaction_code",
+        "StartPoint": 51,
+        "Length": 18,
+        "Format": "18-characters alphanumeric completed with #"
+    },
+    {
+        "Description": "Status_identifier",
+        "StartPoint": 69,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "User_data/band",
+        "StartPoint": 73,
+        "Length": 3,
+        "Format": "3-characters"
+    },
+    {
+        "Description": "Plant_identification",
+        "StartPoint": 76,
+        "Length": 2,
+        "Format": "2-digits"
+    },
+    {
+        "Description": "Identifier",
+        "StartPoint": 78,
+        "Length": 20,
+        "Format": "20-characters"
+    },
+    {
+        "Description": "Checkpoint",
+        "StartPoint": 108,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Number_of_orders",
+        "StartPoint": 116,
+        "Length": 2,
+        "Format": "2-digits"
+    },
+    {
+        "Description": "Part_number",
+        "StartPoint": 118,
+        "Length": 10,
+        "Format": "10-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "Result",
+        "StartPoint": 128,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Info/error_text",
+        "StartPoint": 142,
+        "Length": 120,
+        "Format": "120-characters"
+    }
+]

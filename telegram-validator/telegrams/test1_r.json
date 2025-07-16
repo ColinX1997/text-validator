@@ -1,0 +1,1274 @@
+[
+    {
+        "Description": "Source",
+        "StartPoint": 1,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Sender",
+        "StartPoint": 9,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Code",
+        "StartPoint": 17,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Acknowledgment_info",
+        "StartPoint": 25,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Version",
+        "StartPoint": 29,
+        "Length": 4,
+        "Format": "4-digits with leading zeroes"
+    },
+    {
+        "Description": "Plant_identification",
+        "StartPoint": 33,
+        "Length": 2,
+        "Format": "2-digits"
+    },
+    {
+        "Description": "Primary_source",
+        "StartPoint": 35,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "TG_code",
+        "StartPoint": 43,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Transaction_code",
+        "StartPoint": 51,
+        "Length": 18,
+        "Format": "18-characters alphanumeric completed with #"
+    },
+    {
+        "Description": "Status_identifier",
+        "StartPoint": 69,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Key_type",
+        "StartPoint": 73,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "KEY",
+        "StartPoint": 75,
+        "Length": 32,
+        "Format": "32-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "Identifier",
+        "StartPoint": 107,
+        "Length": 20,
+        "Format": "20-digits"
+    },
+    {
+        "Description": "Time",
+        "StartPoint": 127,
+        "Length": 14,
+        "Format": "14-digits"
+    },
+    {
+        "Description": "Checkpoint",
+        "StartPoint": 141,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Tool/Station",
+        "StartPoint": 149,
+        "Length": 10,
+        "Format": "10-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "Result",
+        "StartPoint": 159,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Info/error_text",
+        "StartPoint": 163,
+        "Length": 120,
+        "Format": "120-characters"
+    },
+    {
+        "Description": "Component_code",
+        "StartPoint": 283,
+        "Length": 32,
+        "Format": "32-characters"
+    },
+    {
+        "Description": "Current_overall_status",
+        "StartPoint": 315,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "IPS-C_order_number",
+        "StartPoint": 317,
+        "Length": 12,
+        "Format": "12-characters"
+    },
+    {
+        "Description": "Generated_component_code_(based_on_order)",
+        "StartPoint": 329,
+        "Length": 32,
+        "Format": "32-characters"
+    },
+    {
+        "Description": "Type_HVS",
+        "StartPoint": 361,
+        "Length": 6,
+        "Format": "6-characters"
+    },
+    {
+        "Description": "Number_of_cells_",
+        "StartPoint": 367,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Cell_Supplier",
+        "StartPoint": 371,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Cell_Height_",
+        "StartPoint": 375,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Cell_Diameter",
+        "StartPoint": 379,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Size",
+        "StartPoint": 383,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "size_additional_info",
+        "StartPoint": 385,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "CCS_Type_",
+        "StartPoint": 389,
+        "Length": 6,
+        "Format": "6-characters"
+    },
+    {
+        "Description": "GOT_Type",
+        "StartPoint": 395,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "GUT_Type_",
+        "StartPoint": 403,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Penthouse_Type_",
+        "StartPoint": 411,
+        "Length": 6,
+        "Format": "6-characters"
+    },
+    {
+        "Description": "Penthouse_additional_info",
+        "StartPoint": 417,
+        "Length": 6,
+        "Format": "6-characters"
+    },
+    {
+        "Description": "IPS-C_Part_number_",
+        "StartPoint": 423,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "SAP_Order",
+        "StartPoint": 433,
+        "Length": 12,
+        "Format": "12-characters"
+    },
+    {
+        "Description": "FATEV",
+        "StartPoint": 445,
+        "Length": 26,
+        "Format": "26-characters"
+    },
+    {
+        "Description": "HU_Nummer",
+        "StartPoint": 471,
+        "Length": 14,
+        "Format": "14-characters"
+    },
+    {
+        "Description": "Part_family_ZZ",
+        "StartPoint": 485,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_ZZ",
+        "StartPoint": 495,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_ZZ",
+        "StartPoint": 502,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Workpiece_ID_Cell_cluster_",
+        "StartPoint": 504,
+        "Length": 32,
+        "Format": "32-characters"
+    },
+    {
+        "Description": "Workpiece_ID_Energy_cluster",
+        "StartPoint": 536,
+        "Length": 32,
+        "Format": "32-characters"
+    },
+    {
+        "Description": "Workpiece_ID_Housing",
+        "StartPoint": 568,
+        "Length": 32,
+        "Format": "32-characters"
+    },
+    {
+        "Description": "Workpiece_ID_Foaming",
+        "StartPoint": 600,
+        "Length": 32,
+        "Format": "32-characters"
+    },
+    {
+        "Description": "Counter_current_process",
+        "StartPoint": 632,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Application_ID_10-digit",
+        "StartPoint": 634,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Identifier_Audit_(IPT)",
+        "StartPoint": 644,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Direct_targeting_via_checkpoint_",
+        "StartPoint": 645,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Reason_of_examination",
+        "StartPoint": 653,
+        "Length": 50,
+        "Format": "50-characters"
+    },
+    {
+        "Description": "NIO_Station_",
+        "StartPoint": 703,
+        "Length": 25,
+        "Format": "25-characters"
+    },
+    {
+        "Description": "Reserve",
+        "StartPoint": 728,
+        "Length": 50,
+        "Format": "50-characters"
+    },
+    {
+        "Description": "Subpart_family_1",
+        "StartPoint": 778,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Subpart_number_1",
+        "StartPoint": 788,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "Subpart_AI_1",
+        "StartPoint": 795,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Subpart_Evaluation_identifier_1",
+        "StartPoint": 797,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 798,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Subpart_family_2",
+        "StartPoint": 800,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Subpart_number_2",
+        "StartPoint": 810,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "Subpart_AI_2",
+        "StartPoint": 817,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Subpart_Evaluation_identifier_2",
+        "StartPoint": 819,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 820,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_1",
+        "StartPoint": 822,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_1",
+        "StartPoint": 832,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_1",
+        "StartPoint": 839,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_1",
+        "StartPoint": 841,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 842,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_2",
+        "StartPoint": 844,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_2",
+        "StartPoint": 854,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_2",
+        "StartPoint": 861,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_2",
+        "StartPoint": 863,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 864,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_3",
+        "StartPoint": 866,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_3",
+        "StartPoint": 876,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_3",
+        "StartPoint": 883,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_3",
+        "StartPoint": 885,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 886,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_4",
+        "StartPoint": 888,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_4",
+        "StartPoint": 898,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_4",
+        "StartPoint": 905,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_4",
+        "StartPoint": 907,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 908,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_5",
+        "StartPoint": 910,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_5",
+        "StartPoint": 920,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_5",
+        "StartPoint": 927,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier5",
+        "StartPoint": 929,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 930,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_6",
+        "StartPoint": 932,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_6",
+        "StartPoint": 942,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_6",
+        "StartPoint": 949,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_6",
+        "StartPoint": 951,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 952,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_7",
+        "StartPoint": 954,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_7",
+        "StartPoint": 964,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_7",
+        "StartPoint": 971,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_7",
+        "StartPoint": 973,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 974,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_8",
+        "StartPoint": 976,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number__8",
+        "StartPoint": 986,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_8",
+        "StartPoint": 993,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_8",
+        "StartPoint": 995,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 996,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_9",
+        "StartPoint": 998,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_9",
+        "StartPoint": 1008,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_9",
+        "StartPoint": 1015,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_9",
+        "StartPoint": 1017,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1018,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_10",
+        "StartPoint": 1020,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_10",
+        "StartPoint": 1030,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_10",
+        "StartPoint": 1037,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_10",
+        "StartPoint": 1039,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1040,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_11",
+        "StartPoint": 1042,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_11",
+        "StartPoint": 1052,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_11",
+        "StartPoint": 1059,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_11",
+        "StartPoint": 1061,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1062,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_12",
+        "StartPoint": 1064,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_12",
+        "StartPoint": 1074,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_12",
+        "StartPoint": 1081,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_12",
+        "StartPoint": 1083,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1084,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_13",
+        "StartPoint": 1086,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_13",
+        "StartPoint": 1096,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI13_",
+        "StartPoint": 1103,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_13",
+        "StartPoint": 1105,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1106,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_14",
+        "StartPoint": 1108,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_14",
+        "StartPoint": 1118,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_14",
+        "StartPoint": 1125,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_14",
+        "StartPoint": 1127,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1128,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_15",
+        "StartPoint": 1130,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_15",
+        "StartPoint": 1140,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI15",
+        "StartPoint": 1147,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_15",
+        "StartPoint": 1149,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1150,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_16",
+        "StartPoint": 1152,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_16",
+        "StartPoint": 1162,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_16",
+        "StartPoint": 1169,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_16",
+        "StartPoint": 1171,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1172,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_17",
+        "StartPoint": 1174,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_17",
+        "StartPoint": 1184,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_17",
+        "StartPoint": 1191,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_17",
+        "StartPoint": 1193,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1194,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_18",
+        "StartPoint": 1196,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number__18",
+        "StartPoint": 1206,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_18",
+        "StartPoint": 1213,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_18",
+        "StartPoint": 1215,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1216,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_19",
+        "StartPoint": 1218,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_19",
+        "StartPoint": 1228,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_19",
+        "StartPoint": 1235,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_19",
+        "StartPoint": 1237,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1238,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_20",
+        "StartPoint": 1240,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_20",
+        "StartPoint": 1250,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_20",
+        "StartPoint": 1257,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_20",
+        "StartPoint": 1259,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1260,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_21",
+        "StartPoint": 1262,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_21",
+        "StartPoint": 1272,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_21",
+        "StartPoint": 1279,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_21",
+        "StartPoint": 1281,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1282,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_22",
+        "StartPoint": 1284,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_22",
+        "StartPoint": 1294,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_22",
+        "StartPoint": 1301,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_22",
+        "StartPoint": 1303,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1304,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_23",
+        "StartPoint": 1306,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_23",
+        "StartPoint": 1316,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_23",
+        "StartPoint": 1323,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_23",
+        "StartPoint": 1325,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1326,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_24",
+        "StartPoint": 1328,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_24",
+        "StartPoint": 1338,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_24",
+        "StartPoint": 1345,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_24",
+        "StartPoint": 1347,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1348,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_25",
+        "StartPoint": 1350,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_25",
+        "StartPoint": 1360,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_25",
+        "StartPoint": 1367,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_25",
+        "StartPoint": 1369,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1370,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_26",
+        "StartPoint": 1372,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_26",
+        "StartPoint": 1382,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_26",
+        "StartPoint": 1389,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_26",
+        "StartPoint": 1391,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1392,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_27",
+        "StartPoint": 1394,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_27",
+        "StartPoint": 1404,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_27",
+        "StartPoint": 1411,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_27",
+        "StartPoint": 1413,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1414,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_28",
+        "StartPoint": 1416,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_28",
+        "StartPoint": 1426,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_28",
+        "StartPoint": 1433,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_28",
+        "StartPoint": 1435,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1436,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_29",
+        "StartPoint": 1438,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_29",
+        "StartPoint": 1448,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_29",
+        "StartPoint": 1455,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_29",
+        "StartPoint": 1457,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1458,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Part_family_30",
+        "StartPoint": 1460,
+        "Length": 10,
+        "Format": "10-characters"
+    },
+    {
+        "Description": "Part_number_30",
+        "StartPoint": 1470,
+        "Length": 7,
+        "Format": "7-characters"
+    },
+    {
+        "Description": "AI_30",
+        "StartPoint": 1477,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Evaluation_identifier_30",
+        "StartPoint": 1479,
+        "Length": 1,
+        "Format": "1-characters"
+    },
+    {
+        "Description": "Reserve_",
+        "StartPoint": 1480,
+        "Length": 2,
+        "Format": "2-characters"
+    }
+]

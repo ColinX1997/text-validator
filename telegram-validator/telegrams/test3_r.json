@@ -1,0 +1,104 @@
+[
+    {
+        "Description": "Source",
+        "StartPoint": 1,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Sender",
+        "StartPoint": 9,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Code",
+        "StartPoint": 17,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Acknowledgment_info",
+        "StartPoint": 25,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Version",
+        "StartPoint": 29,
+        "Length": 4,
+        "Format": "4-digits with leading zeroes"
+    },
+    {
+        "Description": "Plant_identification",
+        "StartPoint": 33,
+        "Length": 2,
+        "Format": "2-digits"
+    },
+    {
+        "Description": "Primary_source",
+        "StartPoint": 35,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "TG_code",
+        "StartPoint": 43,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Transaction_code",
+        "StartPoint": 51,
+        "Length": 18,
+        "Format": "18-characters alphanumeric completed with #"
+    },
+    {
+        "Description": "Status_identifier",
+        "StartPoint": 69,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Key",
+        "StartPoint": 73,
+        "Length": 32,
+        "Format": "32-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "Identifier",
+        "StartPoint": 105,
+        "Length": 20,
+        "Format": "20-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "Time",
+        "StartPoint": 125,
+        "Length": 14,
+        "Format": "14-digits"
+    },
+    {
+        "Description": "Checkpoint",
+        "StartPoint": 139,
+        "Length": 8,
+        "Format": "8-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "Tool/Station",
+        "StartPoint": 147,
+        "Length": 10,
+        "Format": "10-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "Result",
+        "StartPoint": 157,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Info/error_text",
+        "StartPoint": 161,
+        "Length": 120,
+        "Format": "120-characters"
+    }
+]

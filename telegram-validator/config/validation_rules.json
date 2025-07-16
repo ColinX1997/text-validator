@@ -1,0 +1,68 @@
+{
+    "rules": [
+        {
+            "id": "digits",
+            "description": "x + digit -> check isdigit",
+            "validate": {
+            "function": "is_numeric",
+            "error_message": "Non-numeric characters present"
+            }
+        },
+        {
+            "id": "characters",
+            "description": "x + character -> check isalnum",
+            "validate": {
+            "function": "is_characters",
+            "error_message": "There are special characters other than letters, numbers and _"
+            }
+        },
+        {
+            "id": "digits with leading zeroes",
+            "description": "x + digits with leading zero -> check length and whether start with 0",
+            "validate": {
+            "function": "is_leading_zero_digit",
+            "error_message": "Non-digit or non-zero beginning"
+            }
+        },
+        {
+            "id": "characters left aligned text padded with spaces",
+            "description": "x + characters left aligned text padded with spaces -> check length and show how many space exist",
+            "validate": {
+            "function": "is_character_spaces",
+            "error_message": "Incorrect character length or space count mismatch"
+            }
+        },
+        {
+            "id": "digits left aligned text padded with spaces",
+            "description": "x + digits left aligned text padded with spaces -> check length and show how many space exist",
+            "validate": {
+            "function": "is_digit_spaces",
+            "error_message": "Incorrect digit length or space count mismatch"
+            }
+        },
+        {
+            "id": "characters alphanumeric completed with #",
+            "description": "x + characters alphanumeric completed with # -> check length and show how many # exist",
+            "validate": {
+            "function": "is_character_sharp",
+            "error_message": "Doesn't end with #"
+            }
+        },
+        {
+            "id": "digits alphanumeric completed with #",
+            "description": "x + digits alphanumeric completed with # -> check length and show how many # exist",
+            "validate": {
+            "function": "is_digit_sharp",
+            "error_message": "Doesn't end with #"
+            }
+        },
+        {
+            "id": "7-digits & 2 digits",
+            "description": "part number",
+            "validate": {
+            "function": "is_part_number",
+            "error_message": "It's NOT a part number"
+            }
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+[
+    {
+        "Description": "Source",
+        "StartPoint": 1,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Sender",
+        "StartPoint": 9,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Code",
+        "StartPoint": 17,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Acknowledgment_info",
+        "StartPoint": 25,
+        "Length": 4,
+        "Format": "4-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Version",
+        "StartPoint": 29,
+        "Length": 4,
+        "Format": "4-digits with leading zeroes",
+        "Optional": "M"
+    },
+    {
+        "Description": "Plant_identification",
+        "StartPoint": 33,
+        "Length": 2,
+        "Format": "2-digits",
+        "Optional": "M"
+    },
+    {
+        "Description": "Primary_source",
+        "StartPoint": 35,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "TG_code",
+        "StartPoint": 43,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Transaction_code",
+        "StartPoint": 51,
+        "Length": 18,
+        "Format": "18-characters alphanumeric completed with #",
+        "Optional": "M"
+    },
+    {
+        "Description": "Status_identifier",
+        "StartPoint": 69,
+        "Length": 4,
+        "Format": "4-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Key_type",
+        "StartPoint": 73,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Key",
+        "StartPoint": 75,
+        "Length": 32,
+        "Format": "32-characters left aligned text padded with spaces",
+        "Optional": "M"
+    },
+    {
+        "Description": "Identifier",
+        "StartPoint": 107,
+        "Length": 20,
+        "Format": "20-characters left aligned text padded with spaces",
+        "Optional": "M"
+    },
+    {
+        "Description": "Time",
+        "StartPoint": 127,
+        "Length": 14,
+        "Format": "14-digits",
+        "Optional": "M"
+    },
+    {
+        "Description": "Checkpoint",
+        "StartPoint": 141,
+        "Length": 8,
+        "Format": "8-characters left aligned text padded with spaces",
+        "Optional": "M"
+    },
+    {
+        "Description": "Tool/Station",
+        "StartPoint": 149,
+        "Length": 10,
+        "Format": "10-characters left aligned text padded with spaces",
+        "Optional": "M"
+    },
+    {
+        "Description": "Overall_status",
+        "StartPoint": 159,
+        "Length": 2,
+        "Format": "2-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Posting_type_goods_carrier",
+        "StartPoint": 161,
+        "Length": 1,
+        "Format": "1-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Goods_carrier_code_/_HU",
+        "StartPoint": 162,
+        "Length": 32,
+        "Format": "32-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Direct_target",
+        "StartPoint": 194,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Checkpoint_to_be_reset",
+        "StartPoint": 202,
+        "Length": 8,
+        "Format": "8-characters",
+        "Optional": "M"
+    },
+    {
+        "Description": "Open_list_of_subcomponents",
+        "StartPoint": "Info",
+        "Length": 1,
+        "Format": "1-digits list operator [",
+        "Optional": "O"
+    },
+    {
+        "Description": "Subcomponent",
+        "StartPoint": "Info",
+        "Length": 32,
+        "Format": "32-characters left-aligned",
+        "Optional": "O"
+    },
+    {
+        "Description": "Separator_with_further_subcomponents",
+        "StartPoint": "Info",
+        "Length": 1,
+        "Format": "1-digits comma\n,",
+        "Optional": "O"
+    },
+    {
+        "Description": "Subcomponent_x",
+        "StartPoint": "Info",
+        "Length": 32,
+        "Format": "32-characters left-aligned\ntext padded with spaces",
+        "Optional": "O"
+    },
+    {
+        "Description": "Close_list_of_subparts",
+        "StartPoint": "Info",
+        "Length": 1,
+        "Format": "1-digits list operator [",
+        "Optional": "O"
+    },
+    {
+        "Description": "Separator",
+        "StartPoint": "Info",
+        "Length": 1,
+        "Format": "1-characters separator",
+        "Optional": "O"
+    },
+    {
+        "Description": "Open_brackets_for_dynamic_component_data\nrecord",
+        "StartPoint": "Info",
+        "Length": 1,
+        "Format": "1-characters separator",
+        "Optional": "O"
+    },
+    {
+        "Description": "Dynamic_component_data_record",
+        "StartPoint": "Info",
+        "Length": "xxx",
+        "Format": "xx-characters",
+        "Optional": "O"
+    },
+    {
+        "Description": "Close_brackets_for_dynamic_component_data\nrecord",
+        "StartPoint": "Info",
+        "Length": 1,
+        "Format": "1-characters separator",
+        "Optional": "O"
+    }
+]

@@ -1,0 +1,16 @@
+{
+  "types": [
+    "TEREQDAT",
+    "TEREQD_R",
+    "TEREQORD",
+    "TEREQO_R",
+    "TEVARDAT",
+    "TEVARD_R",
+    "TESTORIN",
+    "TESTOR_R",
+    "TETARGET",
+    "TETARG_R",
+    "TENG_TST",
+    "TENG_I_R"
+  ]
+}

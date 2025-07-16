@@ -1,0 +1,140 @@
+[
+    {
+        "Description": "Source",
+        "StartPoint": 1,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Sender",
+        "StartPoint": 9,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Identifier",
+        "StartPoint": 17,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Acknowledgment_info",
+        "StartPoint": 25,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Version",
+        "StartPoint": 29,
+        "Length": 4,
+        "Format": "4-digits with leading zeroes"
+    },
+    {
+        "Description": "Plant_identifier",
+        "StartPoint": 33,
+        "Length": 2,
+        "Format": "2-digits"
+    },
+    {
+        "Description": "Primary_source",
+        "StartPoint": 35,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "TG_code",
+        "StartPoint": 43,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Transaction_code",
+        "StartPoint": 51,
+        "Length": 18,
+        "Format": "18-digits alphanumeric completed with #"
+    },
+    {
+        "Description": "Status_identifier",
+        "StartPoint": 69,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Line_identifier",
+        "StartPoint": 73,
+        "Length": 3,
+        "Format": "3-characters"
+    },
+    {
+        "Description": "Plant_identifier",
+        "StartPoint": 76,
+        "Length": 2,
+        "Format": "2-digits"
+    },
+    {
+        "Description": "Identifier",
+        "StartPoint": 78,
+        "Length": 20,
+        "Format": "20-characters"
+    },
+    {
+        "Description": "Area_/_storage_name",
+        "StartPoint": 98,
+        "Length": 8,
+        "Format": "8-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "Outfeed_location",
+        "StartPoint": 106,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Result",
+        "StartPoint": 110,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Info-/_Errortext",
+        "StartPoint": 114,
+        "Length": 120,
+        "Format": "120-characters"
+    },
+    {
+        "Description": "Component_code",
+        "StartPoint": 234,
+        "Length": 32,
+        "Format": "32-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "Workpiece_carrier_ID",
+        "StartPoint": 266,
+        "Length": 32,
+        "Format": "32-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "Bahn/_Lane/_Linie",
+        "StartPoint": 298,
+        "Length": 4,
+        "Format": "4-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "Storage_level",
+        "StartPoint": 302,
+        "Length": 4,
+        "Format": "4-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "Storage_compartment",
+        "StartPoint": 306,
+        "Length": 4,
+        "Format": "4-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "IPS-C_order_number",
+        "StartPoint": 310,
+        "Length": 12,
+        "Format": "12-characters left aligned text padded with spaces"
+    }
+]

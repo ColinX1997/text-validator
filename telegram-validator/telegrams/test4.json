@@ -1,0 +1,116 @@
+[
+    {
+        "Description": "Source",
+        "StartPoint": 1,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Sender",
+        "StartPoint": 9,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Identifier",
+        "StartPoint": 17,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Acknowledgment_info",
+        "StartPoint": 25,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Version",
+        "StartPoint": 29,
+        "Length": 4,
+        "Format": "4-digits with leading zeroes"
+    },
+    {
+        "Description": "Plant_identifier",
+        "StartPoint": 33,
+        "Length": 2,
+        "Format": "2-digits"
+    },
+    {
+        "Description": "Primary_source",
+        "StartPoint": 35,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "TG_code",
+        "StartPoint": 43,
+        "Length": 8,
+        "Format": "8-characters"
+    },
+    {
+        "Description": "Transaction_code",
+        "StartPoint": 51,
+        "Length": 18,
+        "Format": "18-digits alphanumeric completed with #"
+    },
+    {
+        "Description": "Status_identifier",
+        "StartPoint": 69,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Line_code",
+        "StartPoint": 73,
+        "Length": 3,
+        "Format": "3-characters"
+    },
+    {
+        "Description": "Plant_identifier",
+        "StartPoint": 76,
+        "Length": 2,
+        "Format": "2-digits"
+    },
+    {
+        "Description": "Timestamp",
+        "StartPoint": 78,
+        "Length": 14,
+        "Format": "14-digits"
+    },
+    {
+        "Description": "Number_of_orders",
+        "StartPoint": 92,
+        "Length": 2,
+        "Format": "2-digits"
+    },
+    {
+        "Description": "Identifier",
+        "StartPoint": 94,
+        "Length": 20,
+        "Format": "20-characters"
+    },
+    {
+        "Description": "Area/Storage_name",
+        "StartPoint": 114,
+        "Length": 8,
+        "Format": "8-characters left aligned text padded with spaces"
+    },
+    {
+        "Description": "Outfeed_location",
+        "StartPoint": 122,
+        "Length": 4,
+        "Format": "4-characters"
+    },
+    {
+        "Description": "Key_type",
+        "StartPoint": 126,
+        "Length": 2,
+        "Format": "2-characters"
+    },
+    {
+        "Description": "Key",
+        "StartPoint": 128,
+        "Length": 32,
+        "Format": "32-characters"
+    }
+]
